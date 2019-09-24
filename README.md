@@ -42,5 +42,5 @@ docker pull 192.168.93.172/kt-es/emergency-web:<版本号>
 
 ### 将镜像启动为容器
 ```
-docker run --name=prs_web --restart=always -d -p 9011:80 -e LOCATION='\/emergency' -e PROXY_PASS='http:\/\/192.168.93.70:8886' 192.168.93.172/kt-es/emergency-web:<版本号>
+docker run --name=emergency-web --restart=always -d -p 9011:80 -e LOCATION='\/emergency' -e PROXY_PASS='http:\/\/192.168.93.70:8886' 192.168.93.172/kt-es/emergency-web:<版本号>
 ```
