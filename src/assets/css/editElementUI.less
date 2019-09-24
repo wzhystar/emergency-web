@@ -1,0 +1,289 @@
+.date-point {
+  position: relative;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 157, 29, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    right: 47%;
+  }
+}
+.el-date-picker-calendar__header {
+  margin: 8px 12px !important;
+}
+.el-picker-panel-calendar {
+  border: 0 !important;
+  border-radius: 0 !important;
+  .el-date-picker-calendar table {
+    border-top: 1px solid rgba(235, 235, 235, 1) !important;
+    padding-bottom: 2px !important;
+    th {
+      border: 0 !important;
+    }
+  }
+}
+.el-picker-panel-calendar {
+  box-shadow: 0 !important;
+}
+.el-date-table-calendar td.test {
+  background: #fff !important;
+  background-image: url(../image/choiceDay.png) !important ;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  color: #fff !important;
+}
+.el-date-table-calendar td.current[data-v-55be3324]:not(.disabled) {
+  background: #fff !important;
+  background-image: url(../image/choiceDay.png) !important ;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+.tableInfo {
+  .hover-row {
+    background: 0 !important;
+  }
+  tr:hover > td {
+    background: 0 !important;
+  }
+  .el-table td {
+    padding: 0 !important;
+    border-top: 2px solid rgba(245, 247, 248, 1) !important;
+    border-bottom: 0 !important;
+  }
+  .has-gutter {
+    background: rgba(247, 247, 247, 1) !important;
+    tr {
+      background: 0;
+      th {
+        border: 0 !important;
+      }
+    }
+  }
+  .el-table__row td:first-child .cell {
+    padding-right: 20px;
+    text-align: center;
+  }
+  .el-table__row td:nth-child(2) .cell {
+    color: #ff6f6f !important;
+  }
+  .el-table th {
+    padding: 0 !important;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(121, 124, 125, 1);
+    border: 0 !important;
+    background: 0 !important;
+  }
+  .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: rgba(247, 247, 247, 1) !important;
+  }
+
+  .el-table thead .cell {
+    color: #797c7d !important;
+  }
+  .el-table .cell {
+    line-height: 30px !important;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(48, 49, 51, 1);
+  }
+  .el-table_1_column_1 {
+    text-align: center !important;
+    border-top: 0 !important;
+  }
+
+  .el-table tbody .el-table_1_column_2 .cell {
+    color: #ff6f6f !important;
+  }
+  .el-table {
+    border-left: 2px #fff solid;
+    border-right: 2px #fff solid;
+  }
+}
+.contentTable .head {
+  .el-button--primary {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    span::before {
+      content: "";
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      background: url("../image/add.png");
+      margin-right: 10px;
+    }
+  }
+}
+.contentTable .table {
+  .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: rgba(247, 247, 247, 1) !important;
+  }
+  .el-table {
+    .hover-row {
+      background: 0 !important;
+    }
+    tr:hover > td {
+      background: 0 !important;
+    }
+    .el-table__row {
+      border-left: 1px red solid !important;
+      td:first-child {
+        border-left: 1px solid rgba(235, 235, 235, 1);
+        .cell {
+          margin-left: 10px !important;
+        }
+      }
+    }
+    .el-table__row td:last-child {
+      border-right: 1px solid rgba(235, 235, 235, 1);
+    }
+    .el-table__row td:nth-child(4) .cell {
+      color: #4d84fe !important;
+    }
+    .has-gutter {
+      background: rgb(248, 247, 245) !important;
+      tr {
+        background: 0 !important;
+        th {
+          border-top: 1px solid rgba(235, 235, 235, 1);
+          background: 0 !important;
+          &:first-child {
+            border-left: 1px solid rgba(235, 235, 235, 1);
+          }
+          &:nth-last-child(2) {
+            border-right: 1px solid rgba(235, 235, 235, 1);
+          }
+        }
+      }
+    }
+    .has-gutter th:nth-last-child(2) .cell {
+      padding-left: 40px;
+    }
+    .thead {
+      font-size: 16px;
+      font-family: HiraginoSansGB-W3;
+      font-weight: normal;
+      color: red !important;
+      line-height: 34px;
+    }
+    th {
+      padding: 0 !important;
+      .cell {
+        line-height: 34px !important;
+        font-size: 16px;
+        font-family: HiraginoSansGB-W3;
+        font-weight: normal;
+        color: rgba(121, 124, 125, 1);
+      }
+    }
+    td {
+      padding: 0 !important;
+      .cell {
+        line-height: 44px !important;
+        font-family: HiraginoSansGB-W3;
+        font-weight: normal;
+        color: rgba(48, 49, 51, 1);
+      }
+    }
+  }
+  .el-button {
+    font-size: 14px;
+    font-family: HiraginoSansGB-W3;
+    font-weight: normal;
+    &.deleteBtn {
+      color: rgba(255, 96, 96, 1);
+      margin-left: 30px;
+      &.is-disabled {
+        color: rgba(161, 161, 161, 1) !important;
+      }
+    }
+    &.editBtn {
+      color: rgba(255, 131, 30, 1);
+      &.is-disabled {
+        color: rgba(161, 161, 161, 1) !important;
+      }
+    }
+  }
+}
+.deleteDialog {
+  .el-dialog__body {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    span {
+      display: inline-block;
+      font-size: 16px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(48, 49, 51, 1);
+    }
+  }
+}
+.el-dialog {
+  // background: red ;
+  // min-height: 370px;
+  min-width: 430px;
+  border-radius: 4px;
+  .el-dialog__header {
+    background: linear-gradient(
+      90deg,
+      rgba(77, 132, 254, 1) 0%,
+      rgba(135, 172, 254, 1) 100%
+    );
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      display: inline-block;
+      line-height: 42px;
+      font-size: 16px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(254, 254, 254, 1);
+      margin-left: 20px;
+    }
+    .el-dialog__headerbtn {
+      position: static !important;
+
+      .el-dialog__close::before {
+        margin-right: 18px;
+        color: #fff;
+        line-height: 42px;
+        font-size: 24px;
+      }
+    }
+  }
+  .el-form-item {
+    margin-bottom: 20px;
+    .el-select {
+      width: 100%;
+    }
+    .el-input {
+      width: 100%;
+    }
+  }
+  .el-dialog__footer {
+    border-top: 1px rgba(235, 235, 235, 1) solid;
+    text-align: center;
+    padding-bottom: 15px;
+    max-height: 60px;
+    .el-button--default {
+      margin-right: 16px;
+    }
+    .el-button--primary {
+      margin-left: 16px;
+    }
+  }
+}

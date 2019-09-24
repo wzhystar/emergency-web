@@ -1,0 +1,184 @@
+
+.scheduling{
+    position:absolute;
+
+    top: 0;
+    bottom: 0;
+    min-width: 1366px;
+    min-height: 768px;
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    font-family: MicrosoftYaHei;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        min-width: 1366px;
+        height:46px;
+        background:rgba(9,30,87,1);
+        .topLeft{
+            display: flex;
+            align-items: center;
+            margin-left:10px;
+            img{
+                cursor: pointer;
+            }
+        }
+        .topRight{
+            display: flex;
+            color:#8FADFF;
+            align-items: center;
+            span{
+                display: block;    
+            }
+            .hello{
+                margin-left: 10px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 46px;
+            }
+            .portrait{
+                width: 20px;
+                height: 20px;
+                background: url('../image/icon_user_avator.png') no-repeat;
+            }
+            .exit{
+                margin-left:30px;
+                margin-right:20px;
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                background: url('../image/icon_logout.png') no-repeat;
+                &:hover{
+                    background: url('../image/icon_logout_hover.png') no-repeat;
+                }
+            }
+        }
+    }
+    .content{
+        flex:1;
+        display: flex;
+        width: 100%;
+        .contentLeft{
+            flex:437;
+            display: flex;
+            flex-direction: column;
+            // border:1px solid black;
+            margin:0 10px;
+            .box {
+                margin-top:15px;
+                // border: 1px solid green;
+                background: #fff;
+                &.box1{
+                    flex: 154;
+                    span{
+                        font-size:14px;
+                        font-family:MicrosoftYaHei;
+                        font-weight:400;
+                        color:rgba(17,17,17,1);
+                        line-height:37px;
+                        margin-left: 12px;
+                    }
+                    .peopleInfo{
+                        display: flex;
+                        flex-direction: row;
+                        .portrait{
+                            width: 84px;
+                            height: 84px;
+                            margin: 10px 20px;
+                        }
+                        .namePhone{
+                            flex:1;
+                            span{
+                                display: block;
+                                
+                            }
+                            .span1{
+                                width:97px;
+                                height:32px;
+                                font-size:32px;
+                                font-weight:bold;
+                                color:#111111;
+                                margin-top:20px;
+
+                            }
+                            .span2{
+                                text-align: center;
+                                line-height: 24px;
+                                font-size:18px;
+                                font-weight:400;
+                                color:rgba(0,181,17,1);
+                                margin-top:15px;
+                                width:145px;
+                                height:24px;
+                                background:rgba(224,255,226,1);
+                                border-radius:2px;
+                            }
+                        }
+                    }
+                }
+                &.box2{
+                    flex: 271;
+                    
+                }
+                &.box3{
+                    flex: 252;
+                    min-height: 252px;
+                    margin-bottom: 10px;
+                    background:rgba(255,255,255,1);
+                    border:2px solid rgba(241,241,241,1);
+                    opacity:0.85;
+                    border-radius:4px;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .carInfo{
+                        font-size:14px;
+                        font-family:MicrosoftYaHei;
+                        font-weight:400;
+                        color:rgba(17,17,17,1);
+                        line-height:37px;
+                        padding-left: 16px;
+                        
+                    }
+                    .tableInfo{
+                        flex: 1;
+                    }
+                }
+            }
+        }
+        .contentTable{
+            background: #fff;
+            flex: 896;
+            // border:1px solid black;
+            margin:15px 10px 10px 10px;
+            display: flex;
+            flex-direction: column;
+            
+            .head{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px dashed rgba(235,235,235,1);
+                padding: 0 20px;
+                .date{
+                    font-size:24px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:bold;
+                    color:rgba(17,17,17,1);
+                    line-height:83px;
+                }
+                .btn{
+                    height: 83px;
+                    display: flex;
+                    align-items: center;
+                    
+                }
+            }
+            .table{
+                flex: 1;
+                padding: 0 20px;
+                margin-top:20px;
+            }
+        }
+    }
+}
